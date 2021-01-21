@@ -180,8 +180,11 @@ int main()
     {
         for (int j = 0; j < n; j++)
             cin >> A[i][j];
-        cin >> B[i];
     }
+
+    cout << "Podaj zestaw wyrazow wolnych B\n";
+    for (int i = 0; i < n; i++)
+        cin >> B[i];
 
     //GAUSS
     cout << "\nGauss\n";
