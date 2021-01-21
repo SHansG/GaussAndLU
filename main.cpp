@@ -6,7 +6,6 @@ using namespace std;
 
 //Utility
 
-//reduce amount of functions
 
 float** get_matrix(int size)
 {
@@ -16,7 +15,6 @@ float** get_matrix(int size)
     {
         matrix[i] = new float[size];
     }
-    //wise comment here
     for (int i = 0; i < size; i++)
     {
         for (int j = 0; j < size; j++)
