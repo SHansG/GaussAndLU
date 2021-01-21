@@ -238,7 +238,7 @@ int main()
     }
     cout << "===Upper triangular matrix===\n";
     show_matrix(upper, n);
-    cout << "\n===Upper triangular matrix===\n";
+    cout << "\n===Lower triangular matrix===\n";
     show_matrix(lower, n);
 
     //Solving L*U*X=B
